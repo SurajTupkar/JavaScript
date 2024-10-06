@@ -61,5 +61,15 @@ console.log("someNum5:"+someNum5)
 let someNum6="1"+2+3+4;
 console.log("someNum5: "+someNum6);
 
+//console.log([(0.1 + 0.2)] == [(0.3)]);
+
+
+console.log("Comparison: ",null>0); //false
+console.log(null==0);  //false
+console.log(null>=0);  //true -> In compariosn null is automatically converted into a number and it's value will be 0 then it will check 0 isEqual to 0 then it will be yes so it's answer will be true
+
+console.log("2">1); //true
+console.log(2>"1"); //true
+
 
 
