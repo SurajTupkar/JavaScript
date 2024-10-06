@@ -65,4 +65,15 @@ console.log(myfun);
 console.log("Type of MyFunction: ",myfun);
 
 
+//objects
+
+const obj={
+    name:"Suraj",
+    age:23
+}
+
+console.log(obj);
+console.log("Type of object:",typeof obj);
+
+
 
