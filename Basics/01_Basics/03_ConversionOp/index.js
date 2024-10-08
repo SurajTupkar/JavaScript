@@ -69,7 +69,7 @@ console.log(null==0);  //false
 console.log(null>=0);  //true -> In compariosn null is automatically converted into a number and it's value will be 0 then it will check 0 isEqual to 0 then it will be yes so it's answer will be true
 
 console.log("2">1); //true
-console.log(2>"1"); //true
+console.log(2>"1"); //true..
 
 
 
