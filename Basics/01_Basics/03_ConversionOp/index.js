@@ -71,5 +71,36 @@ console.log(null>=0);  //true -> In compariosn null is automatically converted i
 console.log("2">1); //true
 console.log(2>"1"); //true..
 
+//********************************************************************************************************************************* */
+
+//Stack and Heap Concept
+
+//primitive data types uses stack memory -> only get variable's copy if we change only value it's not refelect on other's value
+//non-primitive data types uses heap memory -> get reference so if we change one value it's reflect on other.
+
+
+let var1="First Variable";
+let var2=var1;
+var2="Second Variable";
+
+
+
+console.log("var1",var1); //First Variable
+console.log("var2",var2); //Second Variable
+
+let user1={
+    name:"Suraj"
+}
+
+let user2=user1;
+user2.name="Tupkar";
+
+console.log(user1.name);
+console.log(user2.name);
+
+
+
+
+
 
 
