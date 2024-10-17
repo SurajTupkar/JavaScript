@@ -98,6 +98,9 @@ user2.name="Tupkar";
 console.log(user1.name);
 console.log(user2.name);
 
+user1.name="SK";
+console.log(user1.name);
+
 
 
 
