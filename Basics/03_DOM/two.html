@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color: whitesmoke;">
+    <div class="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+    </div>
+    
+</body>
+<script>
+
+//Targeting parent
+    const parent=document.querySelector(".parent")
+    console.log(parent);
+    //console.log(parent.innerText);
+
+    //parent's children
+    console.log(parent.children);
+
+    //Accessing elements
+    for(let i=0;i<parent.children.length;i++){
+        console.log(parent.children[i].innerHTML);
+    }
+
+    //getting firstelement from child list
+    console.log(parent.firstElementChild);
+    //getting lastelement from child list
+    console.log(parent.lastElementChild);
+
+    //Moving from child to parent
+    const dayone=document.querySelector(".day");
+    console.log(dayone); //but it's not a efficient way because we are traversing a whole tree 
+
+    console.log(dayone.parentElement); //getting whole parent list of day
+    console.log(dayone.nextElementSibling); //getting next day like here tuesday
+
+    //child nodelist of parent
+    console.log("NODES: ",parent.childNodes);
+</script>
+</html>
