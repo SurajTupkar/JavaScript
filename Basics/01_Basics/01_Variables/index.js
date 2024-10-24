@@ -7,4 +7,9 @@ accountpass="12334";
 // We can't access var varible outside the scope
 // So preferally we use let variable instead of that 
 
+console.log(accountId);
+console.log(accountEmail);
+console.log(accountName);
+console.log(accountpass);
+
 console.table([`accountId:${accountId}`,accountEmail,accountName,accountpass]);
